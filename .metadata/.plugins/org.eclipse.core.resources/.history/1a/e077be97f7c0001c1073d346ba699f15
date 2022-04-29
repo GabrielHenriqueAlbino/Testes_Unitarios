@@ -1,0 +1,14 @@
+package projetorobinson;
+
+public class Calcular {
+	public double Capital;
+	public double Juros;
+	public double Resultado;
+	public int Meses;
+	
+	public void CalcularJuroComposto() {
+		Resultado = Capital * (1+Juros*Meses/100);
+	    Resultado = 0;
+	}
+
+}

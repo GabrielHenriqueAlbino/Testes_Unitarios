@@ -1,0 +1,22 @@
+package projetorobinson;
+
+import static org.junit.Assert.*;
+
+
+import org.junit.Test;
+
+public class CalcularTest {
+
+
+	@Test
+	public void testCalcularJuroComposto() {
+		Calcular calc = new Calcular();
+		calc.Capital = 50d;
+		calc.Juros = 2d;
+		calc.Meses = 5;
+		assertEquals(55d, calc.Resultado,0);
+
+		
+	}
+
+}

@@ -1,0 +1,3 @@
+module projetorobinson {
+	requires junit;
+}
